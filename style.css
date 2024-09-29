@@ -30,6 +30,10 @@ body {
   justify-content: center;
   gap: 10px;
 }
+#playing-field div {
+  width: 100px;
+  height: 100px;
+}
 .game-manage {
   display: flex;
   padding-left: 3%;
@@ -37,8 +41,8 @@ body {
   justify-content: space-evenly;
 }
 .dice-image {
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  height: 100%;
   flex: 1 1 30%;
 }
 #dice-select,
